@@ -1,21 +1,19 @@
 import React from 'react';
+import {HashRouter} from 'react-router-dom';
 import Nav from './Components/Nav/Nav';
-import Auth from './Components/Auth/Auth';
-import Dashboard from './Components/Dashboard/Dashboard';
-import Form from './Components/ Form/Form';
-import Post from './Components/Post/Post';
+
+import routes from './routes';
 import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <Nav/>
-      <Auth/>
-      <Dashboard/>
-      <Form/>
-      <Post/>
-    </div>
+    <HashRouter>
+      <div className="App">
+        <Nav/>
+          {routes}
+      </div>
+    </HashRouter>
   );
 }
-
-export default App;
+// console.log('props')
+export default (App);

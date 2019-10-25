@@ -27,3 +27,9 @@ values
 ('haunted house', 'https://thenypost.files.wordpress.com/2019/10/halloween-000.jpeg?quality=90&strip=all&w=618&h=410&crop=1', 'scary girl in the corner', 1),
 ('my cat', 'http://cdn.shopify.com/s/files/1/0997/4496/files/Capture_dd32f6f2-800d-4a9c-8c8f-8b1600582baa_grande.PNG?v=1538166220', 'my black cat', 2),
 ('pumpkin', 'https://d3i6fh83elv35t.cloudfront.net/newshour/app/uploads/2014/10/138687537-1024x682.jpg', 'i am amazing', 3)
+
+-- select * 
+-- from users
+
+-- select *
+-- from posts
